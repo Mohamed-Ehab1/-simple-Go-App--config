@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: me2o01/goapp:v1
+  repository: me2o01/goapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "v1"
 
 imagePullSecrets: []
 nameOverride: ""
