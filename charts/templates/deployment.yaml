@@ -39,10 +39,10 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /
+              path: /healthcheck
               port: http
           readinessProbe:
-            httpGet:
+            httpGet:healthcheck
               path: /
               port: http
           resources:
